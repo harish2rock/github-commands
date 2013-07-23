@@ -1,0 +1,12 @@
+git status . = to get status of current directory
+git add -A = commit everything on the current directory that is checked out
+git commit = commits to the local repo
+git push = pushes to the remote repo
+git clone https://github.com/seanw7135/sandbox.git = checkout project from github
+git pull url = updates new changes from the repo
+
+To Create Postgres Database
+
+createuser -P -s -e ics
+enter password: ics
+createdb --owner ics ics
